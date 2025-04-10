@@ -1,0 +1,161 @@
+body.main {
+    background-image: url(C:/site-for-project/photo-for-site/bilucuac.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: absolute;
+}
+
+body.service {
+    background-image: url(C:/site-for-project/photo-for-site/mechanic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: absolute;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+
+a.main-logo {
+    color: black;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-logo:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.main-logo:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+
+
+
+a.main-menu {
+    color: black;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.main-menu:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+a.main-menu:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+
+a.bottom-menu {
+    color: rgb(65, 65, 65);
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+.bottom-menu:hover {
+    color: red;
+}
+
+.line {
+    border-bottom: 2px solid red;
+    margin-top: 10px;
+}
+
+.bord {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a.bord-menu {
+    color: rgb(255, 255, 255);
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bord-menu:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -52px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+  }
+  
+  li.cars-name::before {
+    content: '➤';
+    color: rgb(128, 187, 255);
+    position: absolute;
+    left: 0;
+  }
+
+.car-list {
+    transition: 0.3s;
+}
+
+.car-list:hover {
+    box-shadow: 0px 2px 5px 0px rgb(94, 94, 94);
+    cursor: pointer;
+}
+
+.accept-button {
+    color: white;
+    font-size: 24px;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: red;
+    color: white !important;
+    font-size: 18px;
+}
+
